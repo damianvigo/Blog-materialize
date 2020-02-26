@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Blog en Materialize</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!--Import materialize.css-->
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+   <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <header>
+      <nav class="container"> <!-- limitando el crecimiento -->
+        <a href="" class="brand-logo valign-wrapper z-depth-2"> <!-- posicionando imagen, centrando -->
+        <img class="responsive-img left" src="assets/img/Logo.jpg" alt="Logo de blog">
+        </a>
+        <ul class="right valign-wrapper"> <!-- posicinando desde materialize, centrando -->
+          <li><a href="index.html">Sobre nosotros</a></li>
+          <li><a href="index.html">Contacto</a></li>
+          <li><a class="btn" href="registro.html">Registro</a></li>
+        </ul>
+      </nav>
+
+      <section class="header-main-pic z-depth-2"> <!-- z-depth 1-5 sombra --> 
+        <!-- imagen background 🖤 -->
+      </section>
+  </header>
+<!-- FIN HEADER -->
+
+  <main class="container"> <!-- limitando el crecimiento -->
+    <section class="hide"> <!-- ocultar input -->
+        <div class="section ">
+          <div class="row"> <!-- limitando el input en una fila -->
+            <div class="col m7 input-field input-container"> <!-- 7 columnas de 12 del grid -->
+              <i class="material-icons">search</i> <!-- iconos-fuentes de materialize -->
+              <input id="search" placeholder="Buscar" type="text">
+            </div> 
+          </div> 
+        </div>
+    </section>
+    <!-- FIN BUSCADOR -->
+    
+    <!-- INICIO DE POST INDIVIDUAL -->
+    <section> <!-- TITULO DEL POST -->
+      <div class="row">
+        <div class="col s12">
+          <H2>Este pájaro perfectamente conservado en el hielo de Siberia tiene más de 44.000 años</H2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="row">
+        <div class="post-pic z-depth-2"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="col m8">
+          <p>Un grupo de buscadores de marfil fosilizado de la localidad de Belaya Gora, al norte de Rusia, ha desenterrado del permafrost un auténtico tesoro para la ciencia. Se trata de un pajarito muerto de una especia extinta hace más de 44.000 mil años pero cuyo cuerpo está excepcionalmente conservado.
+          </p>
+          <p>
+            La capa de terreno siempre helado conocida como permafrost que caracteriza a las regiones como Siberia es como un auténtico congelador natural. Sus temperaturas son lo bastante bajas como para evitar la putrefacción de los tejidos orgánicos o la aparición de hongos, pero no tan bajas como para dañar los tejidos. Hasta ahora Siberia nos ha regalado diferentes animales de hace miles de años conservados en perfecto estado: caballos, lobos, mamuts, leones...
+          </p>
+          <p> 
+            El último ejemplo salido de esta nevera natural es este pajarillo que los investigadores del Centro de Paleogenética de Suecia han identificado como un antepasado lejano y ya extinto de la actual alondra cornuda (Eremophila alpestris).
+            Pese a que la datación por radiocarbono indica que tiene entre 44.000 y 49.000 años, el estado de conservación del cuerpo es extraordinario. El permafrost ha mantenido prácticamente intactas las plumas, las uñas y hasta los tejidos blandos. Se cree que podría ser la primera muestra conocida de un ave proveniente de la edad de hielo. Nicolas Dussex, del Centro de Paleogenética de Suecia explica el por qué a IFL Science:
+          </p>
+          <p>
+            Las alondras son unas aves tan pequeñas y frágiles... Es muy difícil que se conserven en buenas condiciones bajo metros de terreno congelado. En segundo lugar, se parecen tanto a los pájaros actuales que si alguien desentierra uno sin saber lo que es puede que lo tome por un ave actual que ha muerto hace poco y el descubrimiento se pierda para la ciencia.
+          </p>
+          <p>
+            El siguiente paso de los científicos es secuenciar completamente el ADN de este pajarillo. La información que encuentren permitirá completar el árbol genealógico, la evolución y las mutaciones de varias especies de Alondra actuales.</p>
+        </div>
+        <div class="col s12 m4">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Una alondra Eremophila alpestris.</span>
+              <p>Instituto de Paleogenética de Suecia (Communications Biology)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <article class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light"> <!-- tarjetas para blogposts -->
+              <img class="activator" src="assets/img/card-1-nasa.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text activator text-darken-4">La misión InSight confirma que en Marte se producen terremotos<i class="material-icons right">more_vert</i></span> <!-- class activator para el boton -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">La misión InSight confirma que en Marte se producen terremotos <i class="material-icons right">close</i></span>
+              <p>Las medidas que ha tomado el aterrizador InSight de la NASA en el subsuelo de Marte durante sus primeros diez meses de operación han registrado 174 eventos sísmicos, algunos casi de magnitud 4. El epicentro de los más intensos parece estar en una región con fallas y flujos volcánicos situada a 1.600 km de la nave.</p>
+              <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="post.html">Ver más</a>
+            </div>
+          </div>
+        </article>
+        <article class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light"> <!-- tarjetas para blogposts -->
+              <img class="activator" src="assets/img/card-2-wsp.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text activator text-darken-4">Así luce el modo oscuro de WhatsApp en el escritorio descubre como activarlo<i class="material-icons right">more_vert</i></span> <!-- class activator para el boton -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Así luce el modo oscuro de WhatsApp en el escritorio<i class="material-icons right">close</i></span>
+              <p>Una de las funcionalidades más esperada de WhatsApp (y no solo en el móvil) es, sin duda, la inclusión del modo oscuro. Aunque tanto en la beta de Android como de iOS, además de parte de código en la web, el modo oscuro ya está disponible, hasta el momento desconocíamos cuando llegaría esta funcionalidad (o si lo haría) al escritorio.</p>
+              <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="post.html">Ver más</a>
+            </div>
+          </div>
+        </article>
+        <article class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light"> <!-- tarjetas para blogposts -->
+              <img class="activator" src="assets/img/card-3-fiat.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text activator text-darken-4">Fiat Chrysler apostará por los taxis autónomos en China a mediados del 2020<i class="material-icons right">more_vert</i></span> <!-- class activator para el boton -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Fiat Chrysler apostará por los taxis autónomos en China<i class="material-icons right">close</i></span>
+              <p>Fiat Chrysler anunció un acuerdo con AutoX, el Waymo de China, para llevar sus taxis autónomos al país asiático. La prueba piloto se realizará en los próximos meses.</p>
+              <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="post.html">Ver más</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer class="page-footer">Sitio diseñado por Damián Vigo. Todos los derechos reservados © 2020</footer>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

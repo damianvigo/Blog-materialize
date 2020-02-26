@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Blog en Materialize</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!--Import materialize.css-->
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+   <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <header>
+      <nav class="container"> <!-- limitando el crecimiento -->
+        <a href="" class="brand-logo valign-wrapper z-depth-2"> <!-- posicionando imagen, centrando -->
+        <img class="responsive-img left" src="assets/img/Logo.jpg" alt="Logo de blog">
+        </a>
+        <ul class="right valign-wrapper"> <!-- posicinando desde materialize, centrando -->
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a class="btn" href="registro.html">Registro</a></li>
+        </ul>
+      </nav>
+
+      <section class="header-main-pic z-depth-2"> <!-- z-depth 1-5 sombra --> 
+        <!-- imagen background 🖤 -->
+      </section>
+  </header>
+<!-- FIN HEADER -->
+
+  <main class="container"> <!-- limitando el crecimiento -->
+    <section>
+        <div class="section">
+          <div class="row"> <!-- limitando el input en una fila -->
+            <div class="col m7 input-field input-container"> <!-- 7 columnas de 12 del grid -->
+              <i class="material-icons">search</i> <!-- iconos-fuentes de materialize -->
+              <input id="search" placeholder="Buscar" type="text">
+            </div> 
+          </div> 
+        </div>
+    </section>
+    <!-- FIN BUSCADOR -->
+    <section>
+      <div class="row">
+        <article class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light"> <!-- tarjetas para blogposts -->
+              <img class="activator" src="assets/img/card-1-nasa.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text activator text-darken-4">La misión InSight confirma que en Marte se producen terremotos<i class="material-icons right">more_vert</i></span> <!-- class activator para el boton -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">La misión InSight confirma que en Marte se producen terremotos <i class="material-icons right">close</i></span>
+              <p>Las medidas que ha tomado el aterrizador InSight de la NASA en el subsuelo de Marte durante sus primeros diez meses de operación han registrado 174 eventos sísmicos, algunos casi de magnitud 4. El epicentro de los más intensos parece estar en una región con fallas y flujos volcánicos situada a 1.600 km de la nave.</p>
+              <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="post.html">Ver más</a>
+            </div>
+          </div>
+        </article>
+        <article class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light"> <!-- tarjetas para blogposts -->
+              <img class="activator" src="assets/img/card-2-wsp.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text activator text-darken-4">Así luce el modo oscuro de WhatsApp en el escritorio descubre como activarlo<i class="material-icons right">more_vert</i></span> <!-- class activator para el boton -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Así luce el modo oscuro de WhatsApp en el escritorio<i class="material-icons right">close</i></span>
+              <p>Una de las funcionalidades más esperada de WhatsApp (y no solo en el móvil) es, sin duda, la inclusión del modo oscuro. Aunque tanto en la beta de Android como de iOS, además de parte de código en la web, el modo oscuro ya está disponible, hasta el momento desconocíamos cuando llegaría esta funcionalidad (o si lo haría) al escritorio.</p>
+              <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="post.html">Ver más</a>
+            </div>
+          </div>
+        </article>
+        <article class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light"> <!-- tarjetas para blogposts -->
+              <img class="activator" src="assets/img/card-3-fiat.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text activator text-darken-4">Fiat Chrysler apostará por los taxis autónomos en China a mediados del 2020<i class="material-icons right">more_vert</i></span> <!-- class activator para el boton -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Fiat Chrysler apostará por los taxis autónomos en China<i class="material-icons right">close</i></span>
+              <p>Fiat Chrysler anunció un acuerdo con AutoX, el Waymo de China, para llevar sus taxis autónomos al país asiático. La prueba piloto se realizará en los próximos meses.</p>
+              <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="post.html">Ver más</a>
+            </div>
+          </div>
+        </article>
+        <article class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light"> <!-- tarjetas para blogposts -->
+              <img class="activator" src="assets/img/card-4-pajaro.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text activator text-darken-4">Este pájaro perfectamente conservado en el hielo de Siberia tiene más de 44.000 años<i class="material-icons right">more_vert</i></span> <!-- class activator para el boton -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Este pájaro perfectamente conservado en el hielo de Siberia tiene más de 44.000 años<i class="material-icons right">close</i></span>
+              <p>Un grupo de buscadores de marfil fosilizado de la localidad de Belaya Gora, al norte de Rusia, ha desenterrado del permafrost un auténtico tesoro para la ciencia. Se trata de un pajarito muerto de una especia extinta hace más de 44.000 mil años pero cuyo cuerpo está excepcionalmente conservado.</p>
+              <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="post.html">Ver más</a>
+            </div>
+          </div>
+        </article>
+        <article class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light"> <!-- tarjetas para blogposts -->
+              <img class="activator" src="assets/img/card-5-camion.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text activator text-darken-4">Este camión de 290 toneladas será el vehículo eléctrico más grande del mundo.<i class="material-icons right">more_vert</i></span> <!-- class activator para el boton -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Este camión de 290 toneladas será el vehículo eléctrico más grande del mundo<i class="material-icons right">close</i></span>
+              <p>Las medidas que ha tomado el aterrizador InSight de la NASA en el subsuelo de Marte durante sus primeros diez meses de operación han registrado 174 eventos sísmicos, algunos casi de magnitud 4. El epicentro de los más intensos parece estar en una región con fallas y flujos volcánicos situada a 1.600 km de la nave.</p>
+              <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="post.html">Ver más</a>
+            </div>
+          </div>
+        </article>
+        <article class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light"> <!-- tarjetas para blogposts -->
+              <img class="activator" src="assets/img/card-6-electrico.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text activator text-darken-4">Bill Gates se ha comprado un Porsche Taycan, el deportivo eléctrico que supera al Model S de Tesla<i class="material-icons right">more_vert</i></span> <!-- class activator para el boton -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Bill Gates se ha comprado un Porsche Taycan, el deportivo eléctrico que supera al Model S de Tesla<i class="material-icons right">close</i></span>
+              <p>Bill Gates se ha comprado un Porsche Taycan, el deportivo eléctrico que supera al Model S de Tesla en casi todas las pruebas de aceleración.
+                En una entrevista con Marques Brownlee, el fundador de Microsoft confesó que era su primer vehículo eléctrico y que lo estaba “disfrutando un montón”. Sin embargo, otro conocido millonario no quedó contento con su decisión.</p>
+              <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="post.html">Ver más</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">© 2020 Damián Vigo. Todos los derechos reservados.</footer>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
